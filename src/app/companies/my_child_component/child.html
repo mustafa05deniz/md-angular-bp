@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-header">
+        {{data.name}}
+    </div>
+    <div class="card-body" style="text-align: center;" [ngStyle]="{'background-color':data.color}">
+       <img class="img-raunded" src="{{data.avatar}}">
+       <p>{{data.message}}</p>
+       <p>{{data.email}}</p>
+    </div>
+</div>
+

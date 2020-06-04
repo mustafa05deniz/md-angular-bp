@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-header">
+        {{mock_data.name}}
+    </div>
+    <div class="card-body" style="text-align: center;" [ngStyle]="{'background-color':mock_data.color}">
+       <img class="img-raunded" src="{{mock_data.avatar}}">
+       <p>{{mock_data.message}}</p>
+       <p>{{mock_data.email}}</p>
+    </div>
+</div>

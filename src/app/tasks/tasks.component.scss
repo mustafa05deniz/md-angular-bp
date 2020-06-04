@@ -1,0 +1,19 @@
+.task{
+    border: 1px solid;
+    padding: 10px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    display: flex;
+}
+
+.task .name{
+    width: 40%;
+    text-align: left;
+}
+.task .name .spinner{
+    text-align: center;
+}
+
+.task .panel{
+    width: 60%;
+}
